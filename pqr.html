@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQR</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body>
+    <nav id="barra">
+        <div class="nav-wrapper">
+            <a href="principal.html" class="brand-logo">Dr. Pet</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="adopciones.html">Adopciones</a></li>
+                <li><a href="pqr.html">PQR</a></li>
+            </ul>
+        </div>
+    </nav>
+   
+    <div class="container">
+        <table class="striped">
+          <thead>
+            <tr>
+                <th>----</th>
+                <th colspan="4">PROCESO DE ATENCION AL USUARIO</th>
+                
+            <tr>
+                
+                <th colspan="4">REGISTRO DE PQR</th>
+                
+            </tr>
+            <tr>
+                
+                <th>CÓDIGO <br> AU-F-003 </th>
+                <th>VERSIÓN <br> 2 </th>
+                <th>VIGENCIA <br> 01/08/2018</th>
+                <th>PAGINA <br> 1 de 1 </th>
+            </tr>
+          </thead>
+        </table>
+      
+    </div>
+
+
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="fecha" type="date" class="validate">
+                    <label for="fecha">FECHA</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="hora" type="time" class="validate">
+                    <label for="hora">HORA</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="nombre" type="text" class="validate">
+                    <label for="nombre">NOMBRE USUARIO </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="id" type="text" class="validate">
+                    <label for="id">IDENTIFICACION</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="telefono" type="tel" class="validate">
+                    <label for="telefono">TELÉFONO</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="correo" type="email" class="validate">
+                    <label for="correo">CORREO ELECTRONICO </label>
+                </div>
+            </div>
+            <form action="#">
+                <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" checked />
+                    <span>PETICION</span>
+                </label>
+                </p>
+                <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>QUEJA</span>
+                </label>
+                </p>
+                <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio"  />
+                    <span>RECLAMO</span>
+                </label>
+                </p>
+            </form>
+            <div class="row">
+                <div class="col s12">
+                This is an inline input field:
+                <div class="input-field inline">
+                    <input id="email_inline" type="email" class="validate">
+                    <label for="email_inline">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>DESCRIPCIÓN DE LA PETICIÓN QUEJA O RECLAMO</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <textarea placeholder="ingrese aqui"></textarea>
+        </div>
+    </div>
+    <div class="container">
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>ESPACIO PARA SER DELIGENCIADO POR LA VETERINARIA</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="fecha" type="date" class="validate">
+                    <label for="fecha">FECHA RADICADO</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="numero" type="number" class="validate">
+                    <label for="numero">No. DE PQR</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="funcionario" type="text" class="validate">
+                    <label for="funcionario">FUNCIONARIO QUE RECIBE LA PQR</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="cargo" type="text" class="validate">
+                    <label for="cargo">CARGO</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

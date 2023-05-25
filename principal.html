@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_p.css">
+    <title>Principal</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body>
+    <nav id="barra">
+      <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Dr.Pet</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="adopciones.html">Adopciones</a></li>
+              <li><a href="pqr.html">PQR</a></li>
+          </ul>
+      </div>
+    </nav>
+    <h1> BIENVENIDOS A UN LUGAR SEGURO PARA USTEDES Y SUS MASCOTAS </h1>
+    <p> Este es el citio perfecto para que se sientan comodos al momento de consguir ayuda para ese amigo de cuatro patas
+      que es tan importante para todos, al llegar aqui encontraran la mejor atencion y el mejor ambiente.
+    </p>
+    
+    <br>
+    <h2>INFORMACION DUEÑO</h2>
+    <div aria-colspan="6">
+      <label for="nombre">Nombre</label><input type="text" id="nombre"><br><br>
+      <label for="celular">Celular</label><input type="text" id="celular">
+      <label for="direccion">Direccion</label><input type="text" id="direccion">
+      <button type="reset">Limpiar</button>
+    </div>
+    <h1>INFORMACION MASCOTA</h1>
+    <form>
+      <label for="nombre_mas">Nombre</label><input type="text" id="nombre_mas">
+      <label for="fecha_nacimiento">Fecha de nacimiento</label><input type="date" id="fecha_nacimiento"><br><br>
+      <label for="tipo">Tipo</label>
+      <select>
+        <option disabled selected>Elija una opción</option>
+        <option>Perro </option>
+        <option>Gato </option>
+      </select>
+      <label for="sexo">Sexo</label>
+      <label for="macho">Macho</label><input type="radio" id="macho">
+      <label for="hembra">Hembra</label><input type="radio" id="hembra"><br><br>
+      <label for="color">Color </label><input type="text" id="color">
+      <label for="raza">Raza </label><input type="text" id="raza">
+    </form>
+    <br>
+    <textarea cols="80" rows="10" placeholder="ingrese aqui"></textarea>
+  
+</body>
+</html>
